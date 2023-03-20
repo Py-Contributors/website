@@ -1,4 +1,6 @@
+import { Footer } from '@/components/footer'
 import Hero from '@/components/hero'
+import Metrics from '@/components/metrics'
 import { Navbar } from '@/components/navbar'
 import Projects from '@/components/project-carousel'
 import type { NextPage } from 'next'
@@ -17,6 +19,8 @@ const Home: NextPage = () => {
       </div>
       <Hero />
       <Projects />
+      <Metrics />
+      <Footer />
     </>
   )
 }

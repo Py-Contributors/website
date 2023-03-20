@@ -9,7 +9,7 @@ const Projects: NextPage = () => {
   return (
     <Container>
       <section>
-        <div className="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:py-24 lg:mr-0 lg:pl-8 lg:pr-0">
+        <div className="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:py-16 lg:mr-0 lg:pl-8 lg:pr-0">
           <div className="max-w-7xl items-end justify-between sm:flex sm:pr-6 lg:pr-8">
             <h2 className="max-w-xl text-4xl font-bold tracking-tight sm:text-5xl">
               <Trello className='scale-150 mb-2' />
